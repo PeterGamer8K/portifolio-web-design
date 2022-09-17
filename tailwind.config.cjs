@@ -25,6 +25,7 @@ module.exports = {
     },
     colors: {
       transparent: 'transparent',
+
       accent: '#FC3A79',
       secondary: '#FE572E',
       lightBG: '#F3F2F1',
@@ -35,7 +36,7 @@ module.exports = {
       montserrat: ['Montserrat', 'Roboto'],
     },
     fontSize: {
-      h1: ['119px', '144'],
+      h1: ['119px', '144px'],
       'h1-tablet': ['102px', '132px'],
       'h2-phone': ['55px', 'auto'],
       h2: ['84px', '122px'],
@@ -54,6 +55,9 @@ module.exports = {
       'h6-tablet': ['18px', '24px'],
       paragraph: ['21px', '30px'],
       'paragraph-tablet': ['18px', '26px'],
+    },
+    backgroundImage: {
+      brandGradient: 'linear-gradient(90deg, #FE572E 0%, #FF4C80 100%);',
     },
 
     extend: {},
