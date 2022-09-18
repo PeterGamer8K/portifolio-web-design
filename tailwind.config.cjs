@@ -29,8 +29,10 @@ module.exports = {
       accent: '#FC3A79',
       secondary: '#FE572E',
       lightBG: '#F3F2F1',
+      white: '#fff',
       black: {
         100: '#261F22',
+        75: 'rgba(38, 31, 34, 0.75);',
         25: 'rgba(38, 31, 34, 0.25);',
         10: 'rgba(38, 31, 34, 0.1);',
       },
@@ -60,9 +62,14 @@ module.exports = {
       paragraph: ['21px', '30px'],
       'paragraph-tablet': ['18px', '26px'],
       'menu-item': ['15px', '24px'],
+      'button-text': ['21px', '30px'],
     },
     backgroundImage: {
       brandGradient: 'linear-gradient(90deg, #FE572E 0%, #FF4C80 100%);',
+    },
+    boxShadow: {
+      'button-shadow':
+        '0px 100px 80px rgba(38, 31, 34, 0.0167767), 0px 50.0488px 40.0391px rgba(38, 31, 34, 0.0243888), 0px 30.1471px 24.1177px rgba(38, 31, 34, 0.0300374), 0px 19.3198px 15.4559px rgba(38, 31, 34, 0.035), 0px 12.5216px 10.0172px rgba(38, 31, 34, 0.0399626), 0px 7.88218px 6.30574px rgba(38, 31, 34, 0.0456112), 0px 4.5288px 3.62304px rgba(38, 31, 34, 0.0532233), 0px 1.99324px 1.59459px rgba(38, 31, 34, 0.07);',
     },
 
     extend: {},
