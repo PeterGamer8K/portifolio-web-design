@@ -29,7 +29,11 @@ module.exports = {
       accent: '#FC3A79',
       secondary: '#FE572E',
       lightBG: '#F3F2F1',
-      black: '#261F22',
+      black: {
+        100: '#261F22',
+        25: 'rgba(38, 31, 34, 0.25);',
+        10: 'rgba(38, 31, 34, 0.1);',
+      },
     },
     fontFamily: {
       josefin: ['Josefin Sans', 'Roboto'],
@@ -55,6 +59,7 @@ module.exports = {
       'h6-tablet': ['18px', '24px'],
       paragraph: ['21px', '30px'],
       'paragraph-tablet': ['18px', '26px'],
+      'menu-item': ['15px', '24px'],
     },
     backgroundImage: {
       brandGradient: 'linear-gradient(90deg, #FE572E 0%, #FF4C80 100%);',
