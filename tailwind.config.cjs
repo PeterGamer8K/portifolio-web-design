@@ -28,11 +28,12 @@ module.exports = {
 
       accent: '#FC3A79',
       secondary: '#FE572E',
-      lightBG: '#F3F2F1',
+      'light-BG': '#F3F2F1',
       white: '#fff',
       black: {
         100: '#261F22',
         75: 'rgba(38, 31, 34, 0.75);',
+        50: 'rgba(38, 31, 34, 0.50);',
         25: 'rgba(38, 31, 34, 0.25);',
         10: 'rgba(38, 31, 34, 0.1);',
       },
