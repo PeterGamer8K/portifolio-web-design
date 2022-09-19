@@ -3,25 +3,26 @@ module.exports = {
   content: ['./src/**/*.tsx', './index.html'],
   theme: {
     screens: {
-      '2xl': { max: '1535px' },
-      // => @media (max-width: 1535px) { ... }
+      '2xl': { min: '1535px' },
+      // => @media (min-width: 1535px) { ... }
 
-      xl: { max: '1279px' },
-      // => @media (max-width: 1279px) { ... }
+      xl: { min: '1279px' },
+      // => @media (min-width: 1279px) { ... }
 
-      lg: { max: '1023px' },
-      // => @media (max-width: 1023px) { ... }
+      lg: { min: '1023px' },
+      // => @media (min-width: 1023px) { ... }
 
-      md: { max: '767px' },
-      // => @media (max-width: 767px) { ... }
+      md: { min: '767px' },
+      // => @media (min-width: 767px) { ... }
 
-      sm: { max: '639px' },
-      // => @media (max-width: 639px) { ... }
-      phone: { max: '600px' },
-      // => @media (max-width: 600px) { ... }
-      tablet: { max: '1200px' },
-      // => @media (max-width: 1200px) { ... }
-      laptop: { max: '1800px' },
+      sm: { min: '639px' },
+      // => @media (min-width: 639px) { ... }
+      phone: { min: '0px', max: '700px' },
+      // => @media (min-width: px and max-width: 650px) { ... }
+      tablet: { min: '700px', max: '1300px' },
+      // => @media (min-width: 650px and max-width: 1200px) { ... }
+      laptop: { min: '1300px' },
+      // => @media (min-width: 1200px) { ... }
     },
     colors: {
       transparent: 'transparent',
@@ -45,7 +46,7 @@ module.exports = {
     fontSize: {
       h1: ['119px', '144px'],
       'h1-tablet': ['102px', '132px'],
-      'h2-phone': ['55px', 'auto'],
+      'h1-phone': ['55px', 'auto'],
       h2: ['84px', '122px'],
       'h2-tablet': ['72px', '100px'],
       'h2-phone': ['44px', '56px'],
@@ -64,6 +65,7 @@ module.exports = {
       'paragraph-tablet': ['18px', '26px'],
       'menu-item': ['15px', '24px'],
       'button-text': ['21px', '30px'],
+      'button-text-tablet': ['18px', '26px'],
     },
     backgroundImage: {
       brandGradient: 'linear-gradient(90deg, #FE572E 0%, #FF4C80 100%);',

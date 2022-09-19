@@ -1,3 +1,5 @@
+import { HeaderDivider } from '../HeaderDivider'
+
 export function Header() {
   return (
     <div className="h-24 border-b-[1px] border-b-black-10">
@@ -8,7 +10,7 @@ export function Header() {
           </div>
 
           <nav>
-            <ul className="flex flex-row items-center justify-between gap-8">
+            <ul className="flex flex-row items-center justify-between gap-8 phone:hidden tablet:hidden">
               <li className="text-black-100 text-menu-item font-bold font-montserrat">
                 About Me
               </li>
@@ -18,8 +20,8 @@ export function Header() {
             </ul>
           </nav>
         </div>
-        <div className="flex flex-row items-center justify-between gap-16">
-          <div className="flex flex-row items-center justify-between gap-8">
+        <div className="flex flex-row items-center justify-between gap-16 ">
+          <div className="flex flex-row items-center justify-between gap-8 tablet:hidden phone:hidden">
             <span className="text-accent text-menu-item font-bold font-montserrat">
               hello@robertfox.design
             </span>
@@ -27,11 +29,19 @@ export function Header() {
               (704) 555-0127
             </span>
           </div>
-          <div className="w-[1px] h-4 bg-black-25" />
-          <div className="flex flex-row items-center justify-between gap-8">
+          <div className="tablet:hidden phone:hidden">
+            <HeaderDivider />
+          </div>
+          <div className="flex flex-row items-center justify-between gap-8 phone:hidden">
             <img src="../../../public/social-twitter.svg" alt="" />
             <img src="../../../public/social-instagram.svg" alt="" />
             <img src="../../../public/social-dribbble.svg" alt="" />
+          </div>
+          <div className="laptop:hidden phone:hidden">
+            <HeaderDivider />
+          </div>
+          <div>
+            <img src="../../../public/menu.svg" alt="" />
           </div>
         </div>
       </div>

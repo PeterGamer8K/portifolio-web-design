@@ -2,7 +2,7 @@ import { PrimaryButton } from '../PrimaryButton'
 
 export function CTA() {
   return (
-    <div className="w-full p-64  flex flex-col gap-[96px]">
+    <div className="w-full p-64  phone:p-16 tablet:p-32 flex flex-col gap-[96px]">
       <div className="flex flex-col items-start justify-center gap-8 max-w-[640px] ">
         <h4 className="text-h4 font-josefin font-bold w-full">
           I'm currently available form freelance work
