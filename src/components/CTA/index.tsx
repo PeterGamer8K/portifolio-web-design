@@ -4,14 +4,14 @@ export function CTA() {
   return (
     <div className="w-full p-64  phone:p-16 tablet:p-32 flex flex-col gap-[96px]">
       <div className="flex flex-col items-start justify-center gap-8 max-w-[640px] ">
-        <h4 className="text-h4 font-josefin font-bold w-full">
+        <h4 className="text-h4 font-josefin font-bold w-full tablet:text-h4-tablet phone:text-h4-phone">
           I'm currently available form freelance work
         </h4>
-        <p className="text-paragraph text-black-75 font-montserrat w-full">
+        <p className="text-paragraph tablet:text-paragraph-tablet phone:text-paragraph-tablet text-black-75 font-montserrat w-full">
           If you’re looking for a designer and developer that likes to get stuff
           done, let’s talk.
         </p>
-        <div className="flex flex-row items-center justify-between gap-8">
+        <div className="flex flex-row phone:flex-col items-center phone:items-start justify-between gap-8 ">
           <span className="text-accent text-menu-item font-bold font-montserrat">
             hello@robertfox.design
           </span>

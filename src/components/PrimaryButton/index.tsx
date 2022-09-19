@@ -15,7 +15,7 @@ export function PrimaryButton({
       {...rest}
       className="bg-brandGradient py-6 px-12 rounded-full flex flex-row items-center justify-center gap-4 shadow-button-shadow"
     >
-      <span className="text-white font-montserrat font-bold text-button-text">
+      <span className="text-white font-montserrat font-bold text-button-text phone:text-button-text-tablet">
         {text}
       </span>
       {hasIcon && (

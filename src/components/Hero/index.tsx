@@ -8,7 +8,7 @@ export function Hero() {
         height: 'calc(100vh - 96px)',
       }}
     >
-      <div className="flex flex-col justify-center items-center laptop:gap-8 tablet:gap-4 phone:gap-2">
+      <div className="flex flex-col justify-center items-center laptop:gap-8 tablet:gap-4">
         <h3 className="laptop:text-h3 tablet:text-h3-tablet phone:text-h3-phone font-thin font-josefin text-transparent bg-clip-text bg-gradient-to-r bg-brandGradient">
           Hey, I'm Robert Fox
         </h3>
