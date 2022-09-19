@@ -6,11 +6,11 @@ export function ClientList() {
       </span>
 
       <div className="flex items-center justify-center gap-16 mt-16 phone:flex-wrap">
-        <img src="../../../public/amazon 1.svg" alt="Amazon icon" />
-        <img src="../../../public/adobe 1.svg" alt="Adobe icon" />
-        <img src="../../../public/apple 1.svg" alt="Apple icon" />
-        <img src="../../../public/github 1.svg" alt="Github icon" />
-        <img src="../../../public/microsoft 1.svg" alt="Microsoft icon" />
+        <img src="./amazon 1.svg" alt="Amazon icon" />
+        <img src="./adobe 1.svg" alt="Adobe icon" />
+        <img src="./apple 1.svg" alt="Apple icon" />
+        <img src="./github 1.svg" alt="Github icon" />
+        <img src="./microsoft 1.svg" alt="Microsoft icon" />
       </div>
     </div>
   )

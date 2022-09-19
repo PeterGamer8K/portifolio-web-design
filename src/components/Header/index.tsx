@@ -6,7 +6,7 @@ export function Header() {
       <div className="w-full h-full py-8 px-16 flex flex-row items-center justify-between">
         <div className="flex flex-row items-center justify-between gap-16">
           <div>
-            <img src="../../../public/logo.svg" alt="" />
+            <img src="./logo.svg" alt="" />
           </div>
 
           <nav>
@@ -33,15 +33,15 @@ export function Header() {
             <HeaderDivider />
           </div>
           <div className="flex flex-row items-center justify-between gap-8 phone:hidden">
-            <img src="../../../public/social-twitter.svg" alt="" />
-            <img src="../../../public/social-instagram.svg" alt="" />
-            <img src="../../../public/social-dribbble.svg" alt="" />
+            <img src="./social-twitter.svg" alt="" />
+            <img src="./social-instagram.svg" alt="" />
+            <img src="./social-dribbble.svg" alt="" />
           </div>
           <div className="laptop:hidden phone:hidden">
             <HeaderDivider />
           </div>
           <div>
-            <img src="../../../public/menu.svg" alt="" />
+            <img src="./menu.svg" alt="" />
           </div>
         </div>
       </div>

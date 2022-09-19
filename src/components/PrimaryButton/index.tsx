@@ -20,7 +20,7 @@ export function PrimaryButton({
       </span>
       {hasIcon && (
         <>
-          <img src="../../../public/downward.svg" alt="Arrow down" />
+          <img src="./downward.svg" alt="Arrow down" />
         </>
       )}
     </button>
