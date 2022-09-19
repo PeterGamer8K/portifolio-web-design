@@ -15,12 +15,12 @@ export function PrimaryButton({
       {...rest}
       className="bg-brandGradient py-6 px-12 rounded-full flex flex-row items-center justify-center gap-4 shadow-button-shadow"
     >
-      <span className="text-white font-montserrat font-bold text-button-text phone:text-button-text-tablet">
+      <span className="text-white font-montserrat font-bold text-button-text phone:text-button-text-tablet sm:text-paragraph-tablet">
         {text}
       </span>
       {hasIcon && (
         <>
-          <img src="../../../public/downward.svg" alt="" />
+          <img src="../../../public/downward.svg" alt="Arrow down" />
         </>
       )}
     </button>
