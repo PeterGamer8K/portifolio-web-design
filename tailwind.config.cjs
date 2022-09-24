@@ -15,7 +15,7 @@ module.exports = {
       md: { min: '767px' },
       // => @media (min-width: 767px) { ... }
 
-      sm: { max: '500px' },
+      sm: { min: '500px' },
       // => @media (min-width: 639px) { ... }
 
       phone: { min: '0px', max: '700px' },

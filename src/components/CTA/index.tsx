@@ -1,5 +1,3 @@
-import { PrimaryButton } from '../PrimaryButton'
-
 export function CTA() {
   return (
     <div className="w-full p-64  phone:p-16 tablet:p-32 flex flex-col gap-[96px]">
@@ -21,7 +19,9 @@ export function CTA() {
         </div>
       </div>
       <div>
-        <PrimaryButton text="Got a project in mind? Lest's talk!" />
+        <button className="bg-brandGradient py-6 px-12 rounded-full flex flex-row items-center justify-center gap-4 shadow-button-shadow">
+          <span className="text-white font-montserrat font-bold laptop:text-button-text phone:text-button-text-tablet text-paragraph-tablet before:content-['Let’s_talk'] sm:before:content-['Got_a_project_in_mind?_Let’s_talk!']"></span>
+        </button>
       </div>
     </div>
   )

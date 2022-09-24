@@ -1,6 +1,6 @@
 export function ClientList() {
   return (
-    <div className="w-full h-[304px] bg-light-BG flex flex-col items-center justify-center">
+    <div className="w-full p-16 bg-light-BG flex flex-col items-center justify-center">
       <span className="text-menu-item font-montserrat text-black-50 text-center">
         I had the pleasure of working with these awesome companies
       </span>
